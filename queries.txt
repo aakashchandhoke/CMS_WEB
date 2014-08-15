@@ -1,0 +1,6 @@
+select * from login;
+create table addform(entry numeric(4),adddress varchar(20),phone varchar(10),email varchar(20),bday varchar(20),aniv varchar(20),remind varchar(20));
+select * from adrs;
+drop table adrs;
+create table adrs(id numeric(8),name varchar(20),ad varchar(20),ct varchar(20),st varchar(20),country varchar(20),pincode numeric(6));
+delete from adrs where name='aakash';
